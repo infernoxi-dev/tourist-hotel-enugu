@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Hotel & Suites | Achara, Enugu</title>
+  
+  <!-- Premium Editorial Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Light Fields -->
+  <div class="light-field field-gold"></div>
+  <div class="light-field field-slate"></div>
+
+  <!-- Glass Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <span class="brand-mark">T</span>
+        <div class="brand-meta">
+          <span class="brand-title">TOURIST HOTEL</span>
+          <span class="brand-sub">ACHARA • ENUGU</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#experience">The Experience</a>
+        <a href="#suites">Suites</a>
+        <a href="#amenities">Amenities</a>
+      </nav>
+
+      <a href="#reserve" class="nav-cta">
+        <span>Reserve Room</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="luxury-badge">
+          <span class="pulse-dot"></span>
+          <span>ACHARA, ENUGU STATE</span>
+        </div>
+        
+        <h1 class="hero-title">Refined Comfort. Uncompromised Quiet.</h1>
+        <p class="hero-subtitle">Designed for discerning travelers seeking sophisticated serenity, round-the-clock power, and seamless access to Enugu's urban pulse.</p>
+
+        <div class="hero-actions">
+<a href="https://wa.me/2348000000000?text=Hello%20Tourist%20Hotel,%20I%20have%20a%20quick%20question%20about%20room%20availability." target="_blank" class="btn-primary">
+  Chat with Front Desk &rarr;
+</a>
+          <a href="#suites" class="btn-ghost">Explore Accommodations &gt;</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="image-card-wrapper">
+          <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80" alt="Tourist Hotel Executive Room">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: The Experience -->
+  <section id="experience" class="suites-section" style="border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">UNMATCHED HOSPITALITY</span>
+        <h2>Designed for Serenity & Supreme Convenience</h2>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center;">
+        <div>
+          <p style="margin-bottom: 20px; font-size: 1.05rem;">Whether traveling for business or leisure, Tourist Hotel Achara delivers uninterrupted power, absolute quietness, and high-speed fiber internet tailored to modern professionals and travelers.</p>
+          <p>Skip middleman booking fees and secure your reservation directly with our front desk team via WhatsApp for instant confirmation.</p>
+        </div>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-gold-subtle); padding: 32px; border-radius: var(--radius-md);">
+          <h3 style="color: var(--gold-primary); font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 16px;">Why Guests Choose Us</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; color: var(--text-main);">
+            <li>⚡ 24/7 Uninterrupted Solar & Inverter Backup</li>
+            <li>🛡️ 24/7 Gated Security & Smart Key Locks</li>
+            <li> Dedicated Ultra-Fast Fiber Wi-Fi</li>
+            <li> Ample Secure Parking Space</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Suites -->
+  <section id="suites" class="suites-section" style="border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">ACCOMMODATIONS</span>
+        <h2>Curated Living Spaces</h2>
+      </div>
+
+      <div class="suites-grid">
+        <!-- Deluxe Room -->
+        <div class="suite-card">
+          <div class="suite-media">
+            <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80" alt="Deluxe Room">
+            <span class="price-chip">₦25,000 <sub>/ night</sub></span>
+          </div>
+          <div class="suite-body">
+            <h3>Deluxe Executive Room</h3>
+            <p>Designed for solo business travelers or couples seeking a quiet sanctuary with a dedicated workstation.</p>
+            <ul class="amenity-pills">
+              <li>Fiber Wi-Fi</li>
+              <li>50" Smart TV</li>
+              <li>AC Unit</li>
+            </ul>
+            <button class="suite-select-btn" onclick="selectSuite('Deluxe Executive Room', 25000)">Select Room</button>
+          </div>
+        </div>
+
+        <!-- Super Executive -->
+        <div class="suite-card featured-card">
+          <div class="featured-badge">MOST POPULAR</div>
+          <div class="suite-media">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80" alt="Super Executive Suite">
+            <span class="price-chip">₦35,000 <sub>/ night</sub></span>
+          </div>
+          <div class="suite-body">
+            <h3>Super Executive Suite</h3>
+            <p>Spacious private suite featuring comfortable lounge seating, refrigerator, and luxury ensuite bath.</p>
+            <ul class="amenity-pills">
+              <li>Lounge Area</li>
+              <li>Mini Fridge</li>
+              <li>Dual ACs</li>
+            </ul>
+            <button class="suite-select-btn primary-btn" onclick="selectSuite('Super Executive Suite', 35000)">Select Room</button>
+          </div>
+        </div>
+
+        <!-- Presidential Suite -->
+        <div class="suite-card">
+          <div class="suite-media">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Presidential Suite">
+            <span class="price-chip">₦50,000 <sub>/ night</sub></span>
+          </div>
+          <div class="suite-body">
+            <h3>Presidential Luxury Suite</h3>
+            <p>Expansive dual-room layout with a private parlor, guest restroom, and luxury amenities for long-stay guests.</p>
+            <ul class="amenity-pills">
+              <li>Private Parlor</li>
+              <li>King Bed</li>
+              <li>Ensuite Bath</li>
+            </ul>
+            <button class="suite-select-btn" onclick="selectSuite('Presidential Luxury Suite', 50000)">Select Room</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Amenities -->
+  <section id="amenities" class="suites-section" style="border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">PREMIUM COMFORTS</span>
+        <h2>World-Class Amenities</h2>
+      </div>
+
+      <div class="suites-grid">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-light); padding: 28px; border-radius: var(--radius-md);">
+          <div style="font-size: 2rem; margin-bottom: 12px;">❄️</div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-main); margin-bottom: 8px;">Climate Control</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Silent, high-efficiency inverter air conditioning in every room.</p>
+        </div>
+
+        <div style="background: var(--bg-card); border: 1px solid var(--border-light); padding: 28px; border-radius: var(--radius-md);">
+          <div style="font-size: 2rem; margin-bottom: 12px;"></div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-main); margin-bottom: 8px;">Smart Entertainment</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">55" 4K Smart TVs with active streaming channels and DSTV.</p>
+        </div>
+
+        <div style="background: var(--bg-card); border: 1px solid var(--border-light); padding: 28px; border-radius: var(--radius-md);">
+          <div style="font-size: 2rem; margin-bottom: 12px;"></div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-main); margin-bottom: 8px;">Instant Hot Showers</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Constant high-pressure hot water systems and luxury toiletries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Reservation -->
+  <section id="reserve" class="reservation-section">
+    <div class="container">
+      <div class="reservation-card">
+        <div class="reservation-info">
+          <span class="section-kicker">INSTANT CONCIERGE</span>
+          <h2>Direct Suite Reservation</h2>
+          <p>Skip middleman fees and secure your room directly with our front desk via WhatsApp.</p>
+        </div>
+
+        <form id="bookingForm" class="reservation-form">
+          <div class="input-field">
+            <label>Full Guest Name</label>
+            <input type="text" id="guestName" placeholder="e.g. Dr. Chidi Okafor" required>
+          </div>
+
+          <div class="input-grid">
+            <div class="input-field">
+              <label>Suite Category</label>
+              <select id="suiteSelect">
+                <option value="Deluxe Executive Room" data-price="25000">Deluxe Executive (₦25,000)</option>
+                <option value="Super Executive Suite" data-price="35000" selected>Super Executive (₦35,000)</option>
+                <option value="Presidential Luxury Suite" data-price="50000">Presidential Suite (₦50,000)</option>
+              </select>
+            </div>
+
+            <div class="input-field">
+              <label>Guests</label>
+              <select id="guestCount">
+                <option value="1 Adult">1 Adult</option>
+                <option value="2 Adults">2 Adults</option>
+                <option value="Family / Group">Family / Group</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="input-grid">
+            <div class="input-field">
+              <label>Check-In Date</label>
+              <input type="date" id="checkIn" required>
+            </div>
+
+            <div class="input-field">
+              <label>Check-Out Date</label>
+              <input type="date" id="checkOut" required>
+            </div>
+          </div>
+
+          <!-- Price Summary Slate -->
+          <div class="price-slate">
+            <div class="slate-row">
+              <span>Duration</span>
+              <span id="displayNights" class="slate-val">1 Night</span>
+            </div>
+            <div class="slate-row highlight">
+              <span>Total Stay Price</span>
+              <span id="displayTotal" class="slate-val-gold">₦35,000</span>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+            <span>Confirm & Request via WhatsApp</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Tourist Hotel Achara Enugu. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
